@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="main.css">
   <script src="index.js"></script>
 </head>
-<body onload="showPDF('catalogue3.pdf', '2 Pieces Jackets with Bootwear')">
+<body>
 
 <!-- Header -->
 <header class="container-fluid bg-dark text-light py-3">
@@ -27,14 +27,7 @@
         <p class="logo-text mobile-logo" style="display: none;">Prakash Cap Depot Pvt. Ltd.</p>
       </div>
 
-      <!-- Navigation bar -->
-      <nav class="col-4 text-right">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="jacket.html">Jackets</a>
-          </li>
-        </ul>
-      </nav>
+   
     </div>
   </div>
 </header>
@@ -51,23 +44,44 @@
   </div>
 </section>
 
-<!-- Main Content -->
-<main class="container mt-5">
-  <div class="row">
-    <div class="col-md-12">
-        <div class="btn-group col-md-12" role="group" aria-label="PDF Navigation">
-            <button type="button" class="btn btn-primary col-md-4" onclick="showPDF('catalogue3.pdf', '2 Pieces Jackets with Bootwear')">2 Pieces Jackets with Bottom wear</button>
-            <button type="button" class="btn btn-primary col-md-4" onclick="showPDF('catalogue2_compressed (1).pdf', 'Jackets')">Jackets</button>
-            <button type="button" class="btn btn-primary col-md-4" onclick="showPDF('catalogue1.pdf', 'Bootwear Leggings')">Bottom wear Leggings</button>
-         </div> 
+
+  <!-- Main Content -->
+  <main class="container mt-5">
+    <div class="row">
+      <!-- First Column: Jackets -->
+      <div class="col-md-4">
+        <div class="item-container">
+          <a href="jacket.html">
+            <img src="product-2.png" alt="Jackets" class="img-fluid mb-2">
+          </a>
+          <h4 class="text-center">Jackets</h4>
+          <p class="text-center">Manufacturers and wholesalers of Hosiery, handloom, ready-made & seasonal goods.</p>
+        </div>
+      </div>
+      <!-- Second Column: Bottomwear -->
+      <div class="col-md-4">
+        <div class="item-container">
+          <a href="bottomwear.html">
+            <img src="images.jpg" alt="Bottomwear" class="img-fluid mb-2">
+          </a>
+          <h4 class="text-center">Bottomwear</h4>
+          <p class="text-center">Manufacturers and wholesalers of Hosiery, handloom, ready-made & seasonal goods.</p>
+        </div>
+      </div>
+      <!-- Third Column: Two Pieces -->
+      <div class="col-md-4">
+        <div class="item-container">
+          <a href="track-suit.html">
+            <img src="track-1.jpg" alt="Two Pieces" class="img-fluid mb-2">
+          </a>
+          <h4 class="text-center">Two Pieces</h4>
+          <p class="text-center">Manufacturers and wholesalers of Hosiery, handloom, ready-made & seasonal goods.</p>
+        </div>
+      </div>
     </div>
-    <div class="col-md-12" style="padding-top: 20px;"> 
-      <h2 id="pdfTitle">2 Pieces Jackets with Bottom wear</h2>
-      <!-- Replace the iframe tag with the embed tag -->
-      <embed src="catalogue3.pdf" type="application/pdf" class="pdf-embed" style="width: 100%; height: 600px;">
-    </div>
-  </div>
-</main>
+  </main>
+  
+  
 
 <!-- Footer -->
 <footer class="container-fluid bg-dark text-light py-3 mt-5">
