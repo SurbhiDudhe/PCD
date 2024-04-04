@@ -1,0 +1,48 @@
+.logo {
+    width: 150px; /* Adjust as needed */
+  }
+  
+  .pdf-embed {
+    width: 100%;
+    height: 500px; /* Adjust as needed */
+    border: 1px solid #ccc;
+  }
+  
+  /* Additional styling can be added as per your requirements */
+  .bg-dark {
+    background-color: #60b566 !important;
+}
+
+button.btn.btn-primary.col-md-4 {
+    margin: 10px;
+    background-color: #60b566 !important;
+    border: #60b566 !important;
+}
+
+button.btn.btn-primary.col-md-4:hover {
+    background: #334d87 !important;
+}
+a {
+    color: white;
+    text-decoration: underline;
+}
+.fa_custom {
+    color: #0099CC
+    }
+    @media (max-width: 768px) {
+    img.name {
+        display: none;
+    } 
+    button.btn.btn-primary.col-md-4 {
+        font-size: 10px;
+        margin: 2px;
+        padding: 2px;
+    }
+}   
+
+.logo-text{
+    color: #2c1a1a;
+    font-weight: bold;
+    font-size: 18px;
+
+}
