@@ -47,6 +47,9 @@ a {
         max-width: 100% !important;
         flex: unset;
     }
+    .padding-top{
+        padding-top: 20px;
+    }
 }   
 
 .logo-text{
