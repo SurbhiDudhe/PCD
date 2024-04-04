@@ -38,6 +38,15 @@ a {
         margin: 2px;
         padding: 2px;
     }
+         .mobile-logo{
+        display: block !important;
+    }
+    .mobile-text-center{
+        width: 100%;
+        text-align: center !important;
+        max-width: 100% !important;
+        flex: unset;
+    }
 }   
 
 .logo-text{
