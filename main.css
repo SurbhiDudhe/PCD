@@ -38,7 +38,7 @@ a {
         margin: 2px;
         padding: 2px;
     }
-         .mobile-logo{
+    .mobile-logo{
         display: block !important;
     }
     .mobile-text-center{
@@ -54,4 +54,7 @@ a {
     font-weight: bold;
     font-size: 18px;
 
+}
+.mt-3, .my-3 {
+    margin-top: 3rem !important;
 }
