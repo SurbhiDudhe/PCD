@@ -1,0 +1,101 @@
+.logo {
+    width: 150px; /* Adjust as needed */
+  }
+  
+  .pdf-embed {
+    width: 100%;
+    height: 500px; /* Adjust as needed */
+    border: 1px solid #ccc;
+  }
+  
+  /* Additional styling can be added as per your requirements */
+  .bg-dark {
+    background-color: #60b566 !important;
+}
+
+button.btn.btn-primary.col-md-4 {
+    margin: 10px;
+    background-color: #60b566 !important;
+    border: #60b566 !important;
+}
+
+button.btn.btn-primary.col-md-4:hover {
+    background: #334d87 !important;
+}
+a {
+    color: white;
+    text-decoration: underline;
+}
+.fa_custom {
+    color: #0099CC
+    }
+    @media (max-width: 768px) {
+    img.name {
+        display: none;
+    } 
+    button.btn.btn-primary.col-md-4 {
+        font-size: 10px;
+        margin: 2px;
+        padding: 2px;
+    }
+    .mobile-logo{
+        display: block !important;
+    }
+    .mobile-text-center{
+        width: 100%;
+        text-align: center !important;
+        max-width: 100% !important;
+        flex: unset;
+    }
+    .padding-top{
+        padding-top: 20px;
+    }
+}   
+
+.logo-text{
+    color: #2c1a1a;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.mt-3, .my-3 {
+    margin-top: 3rem !important;
+}
+
+
+.img-container {
+    width: 100%;
+    position: relative;
+  }
+/* 
+  .img-container img {
+    width: 100%;
+    height: 300px;
+    display: block;
+  } */
+  .item-container {
+    background-color: #60b566; /* Light background color */
+    border-radius: 10px; /* Border radius */
+    padding: 20px; /* Padding */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  
+    display: flex; /* Use flexbox to align items vertically */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center align items vertically */
+  }
+  
+  .item-container:hover {
+    background-color: #0099CC; /* Lighter background color on hover */
+  }
+  
+  .item-container img {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .item-container h4, .item-container p {
+    margin-top: 10px; /* Add spacing between heading and paragraph */
+    text-align: center; /* Center align text */
+  }
+  
+  
